@@ -5,7 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "scheme": "discountpro",
     "ios": {
       "supportsTablet": true
@@ -13,6 +15,13 @@
     "android": {
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "aef2b3be-138e-4922-85b5-666f3d6dd357"
+      }
+    },
+    "owner": "gasconaiene"
   }
 }
